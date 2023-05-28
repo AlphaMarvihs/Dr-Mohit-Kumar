@@ -44,3 +44,27 @@ font-family: "Noticia Text",serif;
     font-family: "Noticia Text",serif;
 }
 
+.navbar{
+    position:relative;
+    bottom: 30px;
+    margin-top: 15px;
+}
+.navbar ul{
+    list-style-type: none;
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color:#3b3a3a;
+  border-bottom: 1px solid #252525;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  padding-inline-start: 0;
+}
+.navbar li{
+    font: 1em/4 'Cutive',serif;
+    color:white;
+    display:inline-block;
+    margin:0;
+    padding:0px 10px;
+     
+}
