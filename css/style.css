@@ -88,18 +88,20 @@
     height: 50px;
 }
 
-.content{
-    display:flex;
-    gap:10px;
+.content {
+    display: flex;
+    gap: 10px;
     flex-direction: row;
 }
-.tabs{
-    width:max-content;
-    flex-grow:4;
+
+.tabs {
+    width: max-content;
+    flex-grow: 4;
     margin-right: 20px;
 }
-.sidebar{
-    width:120%;
-    margin-left:0;
-    flex-grow:1;
+
+.sidebar {
+    width: 120%;
+    margin-left: 0;
+    flex-grow: 1;
 }
