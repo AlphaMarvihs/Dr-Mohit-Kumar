@@ -1,10 +1,12 @@
-.navbar,
-.tabs,
-.sidebar {
-    margin-left: 200px;
-    margin-right: 200px;
+body{
+    margin:0;
 }
 
+.main{
+    background-color: #fff;
+    margin-left: 366px;
+    margin-right: 366px;
+}
 .title {
     background: url(../assets/photos/title-background.jpg) top center no-repeat;
     background-size: cover;
@@ -17,9 +19,9 @@
 .title-image {
     box-shadow: 2px;
     margin-top: 30px;
-    margin-left: 200px;
+    margin-left: 366px;
     margin-bottom: 30px;
-    width: 125px;
+    width: 100px;
 }
 
 .title-text {
@@ -32,7 +34,7 @@
 }
 
 .title-text .heading {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 500;
     margin-top: 60px;
     margin-bottom: 0px;
@@ -92,6 +94,8 @@
     display: flex;
     gap: 10px;
     flex-direction: row;
+    padding:10px;
+    background-color: #fff;
 }
 
 .tabs {
@@ -101,7 +105,7 @@
 }
 
 .sidebar {
-    width: 120%;
+    width: 250%;
     margin-left: 0;
     flex-grow: 1;
 }
