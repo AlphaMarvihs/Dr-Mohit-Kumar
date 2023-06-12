@@ -5,12 +5,12 @@ tabs.forEach(tab => {
   tab.addEventListener('click', () => {
     const target = document.querySelector(tab.dataset.tabTarget)
     tabContents.forEach(tabContent => {
-      tabContent.classList.remove('active')
+      tabContent.classList.remove('actives')
     })
     tabs.forEach(tab => {
-      tab.classList.remove('active')
+      tab.classList.remove('actives')
     })
-    tab.classList.add('active')
-    target.classList.add('active')
+    tab.classList.add('actives')
+    target.classList.add('actives')
   })
 })
