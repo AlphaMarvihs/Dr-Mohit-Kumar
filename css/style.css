@@ -124,11 +124,37 @@ body{
     color: #ff9100;
   }
 
+  .vl{
+    width: 1px;
+    background-color:#777;
+  }
+
+
 .sidebar {
     width: 250%;
-    margin-left: 0;
+    margin-left: 15px;
+    margin-right:15px;
     flex-grow: 1;
 }
+.sidebar h2{
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 2px;
+    font-weight: 400;
+    position: relative;
+    line-height: 1.7142857143;
+}
+
+.sidebar .widgets h2:after{
+    height: 2px;
+    width: 50px;
+    background: #e77e23;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    content: '';
+}
+
 .footer{
     color:#fff;
     background-color: #3b3a3a;
