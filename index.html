@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr Mohit Kumar</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
     <link rel="icon" href="assets/photos/icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/script.js" defer></script>
 </head>
 
 <body background="assets/photos/bg-main.png">
@@ -20,21 +23,21 @@
     </div>
     <div class="main">
     <div class="navbar">
-        <ul>
-            <li class="nav-tabs">HOME</li>
-            <li class="nav-tabs">RESEARCH</li>
-            <li class="nav-tabs">TEACHING</li>
-            <li class="nav-tabs">PUBLICATIONS</li>
-            <li class="nav-tabs">PROFESSIONAL ACTIVITIES</li>
-            <li class="nav-tabs">STUDENTS GUIDED</li>
-            <li class="nav-tabs">CONTACT</li>
+        <ul class="tabs">
+            <li data-tab-target="#home" class="active tab">HOME</li>
+            <li data-tab-target="#research" class="tab">RESEARCH</li>
+            <li data-tab-target="#teaching" class="tab">TEACHING</li>
+            <li data-tab-target="#publications" class="tab">PUBLICATIONS</li>
+            <li data-tab-target="#professional-activities" class="tab">PROFESSIONAL ACTIVITIES</li>
+            <li data-tab-target="#students-guided" class="tab">STUDENTS GUIDED</li>
+            <li data-tab-target="#Contact" class="tab">CONTACT</li>
         </ul>
     </div>
 
     <div class="content">
 
         <div class="tabs">
-            <div class="home">
+            <div id="home" data-tab-content class="active">
                 <h3>HOME</h3>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -54,7 +57,7 @@
                     ultrices gravida dictum fusce. Morbi blandit cursus risus at ultrices mi tempus. Nunc scelerisque
                     viverra mauris in aliquam sem fringilla.</p>
             </div>
-            <div class="research">
+            <div id="research" data-tab-content>
                 <h3>Research</h3>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -74,7 +77,7 @@
                     ultrices gravida dictum fusce. Morbi blandit cursus risus at ultrices mi tempus. Nunc scelerisque
                     viverra mauris in aliquam sem fringilla.</p>
             </div>
-            <div class="teaching">
+            <div id="teaching" data-tab-content>
                 <h3>Teaching</h3>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -94,7 +97,7 @@
                     ultrices gravida dictum fusce. Morbi blandit cursus risus at ultrices mi tempus. Nunc scelerisque
                     viverra mauris in aliquam sem fringilla.</p>
             </div>
-            <div class="publications">
+            <div id="publications" data-tab-content>
                 <h3>Publications</h3>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -114,7 +117,7 @@
                     ultrices gravida dictum fusce. Morbi blandit cursus risus at ultrices mi tempus. Nunc scelerisque
                     viverra mauris in aliquam sem fringilla.</p>
             </div>
-            <div class="professional-activities">
+            <div id="professional-activities" data-tab-content>
                 <h3>Professional Activities</h3>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -134,7 +137,7 @@
                     ultrices gravida dictum fusce. Morbi blandit cursus risus at ultrices mi tempus. Nunc scelerisque
                     viverra mauris in aliquam sem fringilla.</p>
             </div>
-            <div class="students-guided">
+            <div id="students-guided" data-tab-content>
                 <h3>Students Guided</h3>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -154,7 +157,7 @@
                     ultrices gravida dictum fusce. Morbi blandit cursus risus at ultrices mi tempus. Nunc scelerisque
                     viverra mauris in aliquam sem fringilla.</p>
             </div>
-            <div class="Contact">
+            <div id="Contact" data-tab-content>
                 <h3>Contact</h3>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -183,7 +186,8 @@
                 <img src="assets/photos/profile.jpeg">
                 <img src="assets/photos/profile.jpeg">
                 <img src="assets/photos/profile.jpeg">
-            </div>
+            </div> 
+            <hr>
             <div class="latest-news">
                 <h4>Latest News</h4>
                 <ul>
