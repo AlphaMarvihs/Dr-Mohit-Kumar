@@ -154,7 +154,8 @@ body{
     content: '';
 }
 .map{
-    width:350px;
+    width:100%;
+    object-fit: cover;
 }
 .address{
     color:#f3790e;
@@ -175,3 +176,142 @@ body{
     padding-right: 20px;
     text-align: left;
 }
+
+/* Media Queries */
+@media (max-width:1629px)
+{
+    .main{
+        margin-left: 19%;
+        margin-right: 19%;
+    }
+    .title-image{
+        margin-left: 19%;
+    }
+
+}
+@media(max-width:1440px)
+{
+    .main{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 1024px) {
+    body{
+        margin:0;
+        padding: 0;
+    }
+    .main {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  
+    
+    .title {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .title-text{
+        margin:15px;
+        margin-left: 0;
+    }
+    .title-image {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+  
+    .title-text .heading{
+        margin-top: 0;
+      
+    }
+    .title-text .subheading{
+        margin-bottom: 15px;
+    }
+    .nvbar .ul .li{
+        line-height: 0px;
+    }
+    /* .sidebar{
+        width:80%;
+    } */
+  }
+  
+  @media (max-width: 767px) {
+    body{
+        margin:0;
+        padding: 0;
+    }
+    .title{
+        width:100%;
+        height:20vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .title-text{
+        margin-top:2px;
+    }
+    .title-image {
+      width: 60px;
+      margin-top: 10px;
+      margin-bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .title-text .heading {
+      font-size: 24px;
+      color:white;
+      text-align: center;
+      margin:0;
+      
+    }
+  
+    .title-text .subheading {
+      font-size: 10px;
+      text-align: center;
+    }
+    .nvbar{
+        width:100%;
+        
+    }
+    .nvbar ul{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .nvbar li {
+      padding: 0px 5px;
+    }
+  
+    .main{
+        margin-left:0;
+        margin-right:0;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .tab {
+      padding: 2px 5px 4px 5px;
+      font-size: large;
+    }
+    .vl{
+        height: 2px black;
+    }
+    .sidebar {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+      }
+    
+      .developer {
+        margin-left: 0;
+        margin-top: 20px;
+        padding-right: 10px;
+        text-align: center;
+      }
+  }
