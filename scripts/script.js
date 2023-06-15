@@ -1,3 +1,5 @@
+// SCRIPT FOR CHANGING OF TABS WITH THE HELP OF ADDITION OF ACTIVE CLASS
+
 const tabs = document.querySelectorAll('[data-tab-target]')
 const tabContents = document.querySelectorAll('[data-tab-content]')
 
