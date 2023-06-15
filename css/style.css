@@ -1,10 +1,10 @@
 /* For removing default margin of 8px */
-body{
-    margin:0;
+body {
+    margin: 0;
 }
 
 /* Added background for main container and margin from sides to align content to center */
-.main{
+.main {
     background-color: #fff;
     margin-left: 366px;
     margin-right: 366px;
@@ -107,54 +107,54 @@ body{
     display: flex;
     gap: 10px;
     flex-direction: row;
-    padding:10px;
+    padding: 10px;
     background-color: #fff;
 }
 
 /* css for display of each tab at a time mechanism */
 [data-tab-content] {
     display: none;
-  }
-  
-  .actives[data-tab-content] {
-    display: block;
-  }
+}
 
- .tabs {
+.actives[data-tab-content] {
+    display: block;
+}
+
+.tabs {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     margin-right: 20px;
     padding: 0;
-  }
-  
- .tab {
+}
+
+.tab {
     cursor: pointer;
     padding: 2px 10px 4px 10px;
     font-size: xx-large;
-  }
-  
- .tab.actives {
+}
+
+.tab.actives {
     text-decoration: #ff9100;
     color: #ff9100;
-  }
+}
 
-  /* center vertical line separating tab and sidebar */
-  .vl{
+/* center vertical line separating tab and sidebar */
+.vl {
     width: 1px;
-    background-color:#eee;
-  }
+    background-color: #eee;
+}
 
 /* sidebar size and positioning */
 .sidebar {
     width: 250%;
     margin-left: 15px;
-    margin-right:15px;
+    margin-right: 15px;
     flex-grow: 1;
 }
 
 /* sidebar headings styling */
-.sidebar h2{
+.sidebar h2 {
     color: #333;
     border-bottom: 1px solid #eee;
     padding-bottom: 2px;
@@ -164,7 +164,7 @@ body{
 }
 
 /* line styling after each heading */
-.sidebar .widgets h2:after{
+.sidebar .widgets h2:after {
     height: 2px;
     width: 50px;
     background: #e77e23;
@@ -175,28 +175,28 @@ body{
 }
 
 /* size and position of map of address */
-.map{
-    width:100%;
+.map {
+    width: 100%;
     object-fit: cover;
 }
 
 /* text styling of address */
-.address{
-    color:#f3790e;
-    font-size:15px;
-    text-decoration:none;
+.address {
+    color: #f3790e;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 /* footer background */
-.footer{
-    color:#fff;
+.footer {
+    color: #fff;
     background-color: #3b3a3a;
 }
 
 /* styling of developer text */
-.developer{
-    font-size:15px;
-    margin-left:300px;
+.developer {
+    font-size: 15px;
+    margin-left: 300px;
     font-weight: 100;
     padding-top: 10px;
     padding-right: 20px;
@@ -204,137 +204,151 @@ body{
 }
 
 /* Media Queries */
-@media (max-width:1629px)
-{
-    .main{
+@media (max-width:1629px) {
+    .main {
         margin-left: 19%;
         margin-right: 19%;
     }
-    .title-image{
+
+    .title-image {
         margin-left: 19%;
     }
 
 }
-@media(max-width:1440px)
-{
-    .main{
+
+@media(max-width:1440px) {
+    .main {
         margin-left: 10%;
         margin-right: 10%;
     }
 }
 
 @media (max-width: 1024px) {
-    body{
-        margin:0;
+    body {
+        margin: 0;
         padding: 0;
     }
+
     .main {
-      margin-left: 30px;
-      margin-right: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
-  
-    
+
+
     .title {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
-  
-    .title-text{
-        margin:15px;
+
+    .title-text {
+        margin: 15px;
         margin-left: 0;
     }
+
     .title-image {
-      margin-left: 0;
-      margin-right: 0;
-      margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
     }
-  
-    .title-text .heading{
+
+    .title-text .heading {
         margin-top: 0;
-      
+
     }
-    .title-text .subheading{
+
+    .title-text .subheading {
         margin-bottom: 15px;
     }
-    .nvbar .ul .li{
+
+    .nvbar .ul .li {
         line-height: 0px;
     }
-  }
-  
-  @media (max-width: 767px) {
-    body{
-        margin:0;
+}
+
+@media (max-width: 767px) {
+    body {
+        margin: 0;
         padding: 0;
     }
-    .title{
-        width:100%;
-        height:20vh;
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .title-text{
-        margin-top:2px;
-    }
-    .title-image {
-      width: 60px;
-      margin-top: 10px;
-      margin-bottom: 0;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    .title-text .heading {
-      font-size: 24px;
-      color:white;
-      text-align: center;
-      margin:0;
-      
-    }
-  
-    .title-text .subheading {
-      font-size: 10px;
-      text-align: center;
-    }
-    .nvbar{
-        width:100%;
-        
-    }
-    .nvbar ul{
+
+    .title {
+        width: 100%;
+        height: 20vh;
         display: flex;
         flex-direction: column;
 
     }
+
+    .title-text {
+        margin-top: 2px;
+    }
+
+    .title-image {
+        width: 60px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title-text .heading {
+        font-size: 24px;
+        color: white;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .title-text .subheading {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .nvbar {
+        width: 100%;
+
+    }
+
+    .nvbar ul {
+        display: flex;
+        flex-direction: column;
+
+    }
+
     .nvbar li {
-      padding: 0px 5px;
+        padding: 0px 5px;
     }
-  
-    .main{
-        margin-left:0;
-        margin-right:0;
+
+    .main {
+        margin-left: 0;
+        margin-right: 0;
     }
-    .content{
+
+    .content {
         display: flex;
         flex-direction: column;
     }
+
     .tab {
-      padding: 2px 5px 4px 5px;
-      font-size: large;
+        padding: 2px 5px 4px 5px;
+        font-size: large;
     }
-    .vl{
+
+    .vl {
         height: 2px black;
     }
+
     .sidebar {
         margin-left: 0;
         margin-right: 0;
         width: 100%;
-      }
-    
-      .developer {
+    }
+
+    .developer {
         margin-left: 0;
         margin-top: 20px;
         padding-right: 10px;
         text-align: center;
-      }
-  }
+    }
+}
