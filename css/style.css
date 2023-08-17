@@ -380,6 +380,15 @@ body {
     flex-direction: column;
   }
 
+  .content-tabs {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .tabs {
+        justify-content: flex-start;
+    }
+  
   .tab {
     padding: 2px 5px 4px 5px;
     font-size: large;
