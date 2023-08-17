@@ -1,359 +1,1147 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dr Mohit Kumar</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <link rel="icon" href="assets/photos/icon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <script src="scripts/script.js" defer></script>
-</head>
+  </head>
 
-<body background="assets/photos/bg-main.png">
-
+  <body background="assets/photos/bg-main.png">
     <!-- TITLE SECTION -->
     <div class="title">
-        <img class="title-image" src="assets/photos/profile.jpeg">
-        <div class="title-text">
-            <h1 class="heading">Dr. Mohit Kumar</h1>
-            <h5 class="subheading">Assistant Professor, Dr. B.R. Ambedkar National Institute of Technology.</h5>
-        </div>
+      <img class="title-image" src="assets/photos/profile.jpeg" />
+      <div class="title-text">
+        <h1 class="heading">Dr. Mohit Kumar</h1>
+        <h5 class="subheading">
+          Assistant Professor, Dr. B.R. Ambedkar National Institute of
+          Technology.
+        </h5>
+      </div>
     </div>
 
     <!--MAIN CONTENT SECTION  -->
     <div class="main">
+      <!-- NAVBAR -->
+      <div class="nvbar">
+        <ul class="tabs">
+          <li data-tab-target="#home" class="actives tab">HOME</li>
+          <li data-tab-target="#research" class="tab">RESEARCH</li>
+          <li data-tab-target="#teaching" class="tab">TEACHING</li>
+          <li data-tab-target="#publications" class="tab">PUBLICATIONS</li>
+          <li data-tab-target="#professional-activities" class="tab">
+            PROFESSIONAL ACTIVITIES
+          </li>
+          <li data-tab-target="#students-guided" class="tab">
+            STUDENTS GUIDED
+          </li>
+          <li data-tab-target="#Contact" class="tab">CONTACT</li>
+        </ul>
+      </div>
 
-        <!-- NAVBAR -->
-        <div class="nvbar">
-            <ul class="tabs">
-                <li data-tab-target="#home" class="actives tab">HOME</li>
-                <li data-tab-target="#research" class="tab">RESEARCH</li>
-                <li data-tab-target="#teaching" class="tab">TEACHING</li>
-                <li data-tab-target="#publications" class="tab">PUBLICATIONS</li>
-                <li data-tab-target="#professional-activities" class="tab">PROFESSIONAL ACTIVITIES</li>
-                <li data-tab-target="#students-guided" class="tab">STUDENTS GUIDED</li>
-                <li data-tab-target="#Contact" class="tab">CONTACT</li>
+      <!-- CONTENT -->
+      <div class="content">
+        <div class="content-tabs">
+          <!-- HOME TAB -->
+          <div id="home"  data-tab-content class="actives page">
+            <div class="container">
+            <h3 class="pagetitle">Home</h3>
+            
+            <!-- ADD HOME TAB CONTENT HERE -->
+            <p>
+              Hello and thank you for visiting my website! I am an
+              enthusiastic researcher with a strong passion for leveraging my
+              expertise in Cloud Computing and AI to contribute to the growth
+              and success of organizations. I am dedicated to continuous
+              learning and seek opportunities to further enhance my skills and
+              knowledge while making a meaningful impact.
+            </p>
+            <h5>Objective</h5>
+    <p>
+        Willingness to work in such an organization that makes best use of my research skills in the growth of organization
+        and provide me opportunity and their valuable experience to enhance my knowledge, so I gain apex position in an
+        organization which gives me exposure in both education and research sector.
+    </p>
+
+    <h5>Academic Profile</h5>
+    <ul>
+        <li>Ph.D. in Computer Science and Engineering discipline (specialization Cloud Computing and AI) from IIT Roorkee in 2018.</li>
+        <li>M.Tech in Computer Science and Engineering from ABV-IIIT Gwalior in 2013.</li>
+        <li>B.Tech in Computer Science & Information Technology from MJP Rohilkhand University Bareilly, 2009.</li>
+    </ul>
+
+    <h5>Professional Experience</h5>
+    <ul>
+        <li>Working as an Assistant Professor Grade-I in NIT, Jalandhar since 22 December 2022.</li>
+        <li>Worked as an Assistant Professor Grade-II in NIT, Jalandhar from 19 Dec 2019 to 22 Dec 2022.</li>
+        <li>Worked as an Assistant Professor in SIT, Sitamarhi, Bihar from 29 June 2018 to 09 December 2019.</li>
+        <li>Worked as Teaching assistant in IIT Roorkee from 30 Dec 2014 to 20 June 2018.</li>
+        <li>Worked as Assistant Prof. in JP Institute of Engineering& Technology, Meerut from 10 Aug 2013 to 29 December 2014.</li>
+        <li>Worked as Lecturer at Dewan VS Group of institutes, Meerut: 2 Aug 2009 to 1 Aug 2011.</li>
+    </ul>
+
+    <h5>Projects Undertaken</h5>
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Specifications</th>
+            <th>Technologies</th>
+            <th>Organization</th>
+        </tr>
+        <tr>
+            <td>Megh</td>
+            <td>Megh is cloud virtualization management software built over OpenNebula and KVM (hypervisor). Megh is deployed in IITR on 5 HP Z620 Workstations with about 60 cores and 5 TB of virtualized storage and currently has over 20 virtual machines commissioned for high performance computing delivering IaaS services.</td>
+            <td>Linux, KVM, OpenNebula, JavaScript, J2EE</td>
+            <td>IIT Roorkee</td>
+        </tr>
+        <!-- ... (rest of the projects) ... -->
+    </table>
+
+    <h5>Educational Achievements</h5>
+    <ul>
+        <li>GATE Qualified - 2009, 2010, 2011, 2012, 2014 and 2016.</li>
+        <li>UGC-NET Dec-2012 and Dec 2013, June 2014, Dec 2014 Qualified.</li>
+        <li>UGC NET-JRF 2012 & 2014 Qualified.</li>
+        <li>Got best paper award in IEEE Conference ICACEA, Ghaziabad, India 2015.</li>
+        <li>Awarded UGC-NET-JRF fellowship for PhD in IIT Roorkee, 2014.</li>
+        <li>Contributing reviewer of journals (Transaction, Elsevier/Springer/IEEE/IJI Global) and conferences.</li>
+        <li>Designed the syllabus for M. Tech (IT), NIT Jalandhar</li>
+    </ul>
+
+ </div>
+</div>
+
+          <!-- RESEARCH TAB -->
+          <div id="research" class="page" data-tab-content>
+            <h3 class="pagetitle">Research</h3>
+            <div class="container">
+            <!-- ADD RESEARCH CONTENT HERE  -->
+            <h5>Research Area</h5>
+            <ul class="reasearch-area">
+              <li>Cloud and Fog Computing</li>
+              <li>Artificial Intelligence</li>
+              <li>Machine Learning</li>
+              <li>Soft Computing Techniques</li>
+              <li>Algorithm Design and Analysis</li>
+              <li>Internet of Things</li>
+              <li>Blockchain</li>
             </ul>
+          </div></div>
+
+          <!-- TEACHING TAB -->
+          <div id="teaching" class="page" data-tab-content>
+            <h3 class="pagetitle">Teaching</h3>
+            <div class="container">
+            <!-- ADD TEACHING CONTENT HERE -->
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
+              aliquet bibendum enim facilisis gravida neque. Feugiat nibh sed
+              pulvinar proin. Elementum nisi quis eleifend quam adipiscing vitae
+              proin sagittis. Velit scelerisque in dictum non consectetur a erat
+              nam. Luctus accumsan tortor posuere ac ut consequat semper
+              viverra. Nulla porttitor massa id neque aliquam. Ut sem viverra
+              aliquet eget. Commodo sed egestas egestas fringilla phasellus.
+              Cursus mattis molestie a iaculis at. Eget sit amet tellus cras
+              adipiscing. Vestibulum sed arcu non odio euismod lacinia at quis
+              risus. Aliquam ultrices sagittis orci a scelerisque.
+            </p>
+            <p>
+              Placerat orci nulla pellentesque dignissim enim. Et netus et
+              malesuada fames ac. Metus vulputate eu scelerisque felis imperdiet
+              proin. Amet consectetur adipiscing elit duis. Viverra tellus in
+              hac habitasse. Libero justo laoreet sit amet. Sed risus pretium
+              quam vulputate dignissim suspendisse in. Massa massa ultricies mi
+              quis hendrerit dolor magna eget. Blandit massa enim nec dui nunc
+              mattis. Sem fringilla ut morbi tincidunt augue interdum velit
+              euismod. Enim ut sem viverra aliquet. Nulla facilisi cras
+              fermentum odio eu feugiat pretium nibh. Tristique et egestas quis
+              ipsum suspendisse ultrices gravida dictum fusce. Morbi blandit
+              cursus risus at ultrices mi tempus. Nunc scelerisque viverra
+              mauris in aliquam sem fringilla.
+            </p>
+          </div>
+        </div>
+          <!-- PUBLICATIONS TAB -->
+          <div id="publications" class="page"  data-tab-content>
+            <h3 class="pagetitle">Publications</h3>
+            <div class="container">
+            <!-- ADD PUBLICATIONS CONTENT HERE -->
+            <h5>Referred Journal (Transaction/SCI/SCIE)</h5>
+            <ol>
+              <li>
+                Mohit Kumar et al., “ARPS: An Autonomic Resource Provisioning
+                and Scheduling Framework for Cloud Platforms” in IEEE
+                Transactions on Sustainable Computing, 2021, (IEEE IF= 2.456),
+                vol. 7, no. 2, pp. 386-399. Status: Published.
+              </li>
+              <li>
+                Mohit Kumar, Avadh Kishor, Jitendra Kumar and Albert Zomaya, “An
+                Autonomic Workload Prediction and Resource Allocation Framework
+                for Fog enabled Industrial IoT,” in IEEE Internet of Things,
+                2022 (IEEE IF=10.238 SCI Indexed) Status: Published.
+              </li>
+
+              <li>
+                Mohit Kumar, Atul Rai, Surbhit and Neeraj Kumar, “Autonomic Edge
+                Cloud Assisted Framework for Heart Disease Prediction using
+                RF-LRG Algorithm” in Multimedia Tools and Applications Springer
+                IF=2.757, 2023 [SCI-E Indexed] Status: Published.
+              </li>
+              <li>
+                Prabal Verma, Aditya Gupta, Mohit Kumar, Sukhpal Singh Gill,
+                “FCMCPS-COVID: AI propelled fogcloud inspired scalable medical
+                cyber-physical system, specific to coronavirus disease” in
+                Internet of Things (IoT) Elsevier, 2023 (SCI IF=5.711), status:
+                published.
+              </li>
+              <li>
+                Mohit Kumar, Jitendra Kumar Samriya, Kalka Dubey, and Sukhpal
+                Singh Gill, “QoS-aware Resource Scheduling using Whale
+                Optimization Algorithm for Microservice Applications” in
+                Software: Practice and Experience, Wiley, 2023 (SCIE IF=3.2),
+                status: Published
+              </li>
+              <li>
+                S. S Gill, and Mohit Kumar et al., “AI-based fog and edge
+                computing: A systematic review, taxonomy and future directions”
+                in Internet of Things, Elsevier, (SCI IF=5.711) Vol. 21, 2023,
+                Status: Published
+              </li>
+              <li>
+                Mangalampalli, Sudheer, Ganesh Reddy Karri, Mohit Kumar, Osama
+                Ibrahim Khalaf, Carlos Andres Tavera Romero, and Ghaida
+                Muttashar Abdul Sahib. "DRLBTSA: Deep reinforcement learning
+                based task-scheduling algorithm in cloud computing." Multimedia
+                Tools and Applications Springer IF=2.757 [SCI-E Indexed], pp.
+                1-29, 2023 Status: Published.
+              </li>
+              <li>
+                Sudheer Mangalampalli, Mohit Kumar and Ganesh Reddy Karri,
+                “Multi Objective Task Scheduling algorithm in cloud computing
+                using Grey Wolf optimization" in Cluster Computing Journal, 2023
+                IF=2.3 (SCI-E Indexed) Status: Published.
+              </li>
+              <li>
+                Jitendra Kumar Samriya, Mohit Kumar, and Sukhpal Singh Gill,
+                "Secured data offloading using reinforcement learning and Markov
+                decision process in mobile edge computing" in International
+                Journal of Network Management, Wiley, 2023 (SCIE IF=1.5),
+                status: Published.
+              </li>
+              <li>
+                Samayveer Singh, Aruna Malik, Mohit Kumar and Sukhpal Gill, “A
+                Robust and Secure User Authentication Scheme based on
+                Multifactor and Multi-Gateway in IoT enabled Sensor Networks” in
+                Security and Privacy Journal, Wiley, 2023 (SCIE IF=1.9), status:
+                Published.
+              </li>
+              <li>
+                Nisha Chaurasia, Mohit kumar, Kunwar Pal and Ankit Vidyarathi,
+                "An efficient and optimized Markov chain-based prediction for
+                server consolidation in cloud environment" Computers and
+                Electrical Engineering, Elsevier, 2023 (SCI IF=4.152), vol. 108,
+                2023.
+              </li>
+              <li>
+                Ananya, Mohit Kumar, Nisha and Sukhpal Gill, “"Journey from
+                Cloud of Things (CoT) to Fog of Things (FoT): Survey, New Trends
+                and Research Directions" in Software: Practice and Experience
+                Wiley Journal, 2022 IF=3.2 (SCI-E Indexed) Status: Published
+              </li>
+              <li>
+                Mohit Kumar et al., “Experimental Performance Analysis of Cloud
+                Resource Allocation Framework using SMO algorithm" in the
+                journal of Concurrency and Computation: Practice and Experience,
+                Wiley, 2022 IF=1.81 (SCI-E Indexed) Status: Published
+              </li>
+              <li>
+                Samayveer singh, Mohit kumar, O P Verma, Rajeev Kumar and
+                Sukhpal Singh Gill, “An IIoT based Secure and Sustainable Smart
+                Supply Chain System Using Sensor Networks" in Transactions on
+                Emerging Telecommunications Technologies, Wiley, 2022 IF=3.31
+                (SCI-E Indexed) Status: Published
+              </li>
+              <li>
+                Kalka Dubey, S.C. Sharma and Mohit Kumar, “A Secure IoT
+                Applications Allocation Framework for integrated Fog-Cloud
+                Environment” in Journal of Grid Computing, vol. 20, no. 5, pp.
+                1-23, 2022 Springer IF=3.986 [SCI-E Indexed] Status: Published.
+                doi.org/10.1007/s10723-021-09591-x
+              </li>
+              <li>
+                Kalka Dubey, S. C. Sharma, Mohit Kumar, Prashant Kumar, Aida A.
+                Nasr, “A Secured GA-WPC framework for Scheduling the Independent
+                Tasks in Cloud Environment” in Journal of Ambient Intelligence
+                and Humanized Computing Springer 2022 IF=7.104, [SCI-E Indexed]
+                Status: Published
+              </li>
+              <li>
+                Jitendra Samriya, Mohit Kumar, and Rajeev Tiwari, “Energy-Aware
+                ACO-DNN Optimization Model for Intrusion Detection of Unmanned
+                Aerial Vehicle (UAVs)” in Journal of Ambient Intelligence and
+                Humanized Computing Springer, 2022 IF=7.104, [SCI-E Indexed]
+                Status: Published.
+              </li>
+              <li>
+                Mohit Kumar and S. C. Sharma, “PSO based novel resource
+                scheduling technique to improve QoS parameters in cloud
+                computing,” Neural Computing and Applications, vol. 32, pp.
+                12103–12126, 2019, Springer
+              </li>
+              IF=5.606) [SCI-E Indexed] Status: Published.
+              <li>
+                Mohit Kumar et al., “A comprehensive survey for scheduling
+                techniques in cloud computing,” in Journal of Network and
+                Computer Applications, 20119 vol. 143, pp. 1-33 (Elsevier
+                IF=5.273) [SCI-E Indexed] Status: Published.
+              </li>
+              <li>
+                Mohit Kumar and S. C. Sharma, “Deadline constrained based
+                dynamic load balancing algorithm with elasticity in cloud
+                environment” in journal of Computers & Electrical Engineering
+                (CAEE), Vol. 69, pp. 395- 411, Nov-2017 (Elsevier, IF=3.818)
+                [SCI-E Indexed]
+              </li>
+              <li>
+                Mohit Kumar and S.C. Sharma, “PSO-COGENT: Cost and Energy
+                Efficient scheduling in Cloud environment with deadline
+                constraint,” Sustainable Computing: Informatics and Systems,
+                Vol. 19, pp. 147-164, 2018 (Elsevier IF=4.028) [SCI-E Indexed]
+                Status: Published.
+              </li>
+              <li>
+                Mohit kumar et al., “Autonomic cloud resource provisioning and
+                scheduling using meta-heuristic algorithm”, Neural Computing and
+                Applications, vol. 32, pp. 18285–18303, 2020, Springer IF=5.606)
+                [SCI-E Indexed] Status: Published.
+              </li>
+              <li>
+                Nisha, Mohit Kumar, Rashmi and OP Verma, "Comprehensive survey
+                on energy-aware server consolidation techniques in cloud
+                computing." The Journal of Supercomputing, vol. 77, no. 10, pp.
+                1-56, 2021 (Springer IF=2.469) [SCI-E Indexed] Status:
+                Published.
+              </li>
+              <li>
+                OP Verma, Saurav Kumar, Drishti Yadav, Himanshu Gupta, Mohit
+                Kumar “Towards smart surveillance as an aftereffect of COVID-19
+                outbreak for recognition of face masked individuals using YOLOv3
+                algorithm” in Multimedia Tools and Applications Springer
+                IF=2.757 [SCI-E Indexed] Status: Published.
+              </li>
+            </ol>
+            <hr />
+            <h5>Referred Journal (Scopus Indexed)</h5>
+            <ol>
+              <li>
+                Mohit Kumar, Hritu Raj, Nisha Chaurasia, Sukhpal Singh Gill
+                “Blockchain inspired secure and reliable data exchange
+                architecture for cyber-physical healthcare system 4.0” in
+                Internet of Things and Cyber-Physical Systems, Elsevier [Scopus
+                Indexed] status: published.
+              </li>
+              <li>
+                Eric Bragion, Habiba Akter, Mohit Kumar, Minxian Xu, Ahmed M.
+                Abdelmoniem, Sukhpal Singh Gill, “Fortaleza: The emergence of a
+                network hub” in Internet of Things and Cyber-Physical Systems,
+                Elsevier [Scopus Indexed] status: published.
+              </li>
+
+              <li>
+                Mehak Sharma, Mohit Kumar and Jitendra Samriya, “An Optimistic
+                Approach for Task Scheduling in Cloud Computing", in
+                International Journal of Information Technology, Springer
+                (Scopus Indexed), vol. 14, pp. 2951–2961, 2022 status: published
+              </li>
+              <li>
+                Shalini, Anubhav Goel, Mohit Kumar and German Molto, “A review
+                of Internet of Things: qualifying technologies and boundless
+                horizon” in Journal of Reliable Intelligent Environments, vol.
+                7, pp. 23-33, Jan2021 (Springer, Scopus)
+                https://link.springer.com/article/10.1007/s40860-020-00127-w
+              </li>
+              <li>
+                Mohit Kumar and S.C.Sharma, “Dynamic load balancing algorithm to
+                minimize the makespan time and utilize the resources effectively
+                in cloud environment” in international journal of Computers and
+                applications, vol. 42, no. 1, pp. 108-117, Nov-2017 (Taylor &
+                Francis, Scopus). Status: Published DOI:
+                https://doi.org/10.1080/1206212X.2017.1404823
+              </li>
+              <li>
+                Surendra Kumar Jitendra Kumar Samriya and Mohit Kumar, “To
+                improve scalability with Boolean matrix using efficient gossip
+                failure detection and consensus algorithm for PeerSim simulator
+                in IoT environment” in International Journal of Information
+                Technology, Springer (Scopus Indexed), Vol. 14, pp. 2297–2307,
+                2022.
+              </li>
+              <li>
+                Prashant Kumar, Naveen Chauhan, Mohit Kumar & Lalit K. Awasthi
+                "Clustering based opportunistic traffic offloading technique for
+                device-to-device communication." International Journal of System
+                Assurance Engineering and Management (2021): 1-13. (Scopus
+                Indexed)
+              </li>
+              <li>
+                Mohit Kumar and S.C. Sharma, “Load balancing algorithm to
+                minimize the makespan time in cloud environment,” World journal
+                of modeling and simulation, vol. 14, no. 4, pp. 276-288, 2018.
+                (Scopus Indexed) Status: Published, ISSN 1 746-7233.
+              </li>
+            </ol>
+            <hr />
+            <h5>International Conferences:</h5>
+            <ol>
+              <li>
+                Om Prakash Suman, and Mohit Kumar. "Machine Learning Based
+                Theoretical and Experimental Analysis of DDoS Attacks in Cloud
+                Computing." in IEEE International Conference on Device
+                Intelligence, Computing and Communication Technologies, (DICCT),
+                held in Graphic Era University 2023.
+              </li>
+
+              <li>
+                Haresh Shingare and Mohit Kumar, “Whale Optimization based Task
+                Offloading Technique in Integrated Cloud-Fog Environment” in
+                11th International Conference on Soft Computing for Problem
+                Solving (SocProS 2022) during May 14 - 15, 2022 in IIT Mandi.
+              </li>
+              <li>
+                Saurabh Verma, Renu Dhir and Mohit Kumar, “Heart Disease
+                Prediction using Stacking Ensemble Model based on Machine
+                Learning Approach” in International Conference on Data Analytics
+                and Computing, 2022, Wenzhou Kean University, Wenzhou, China,
+                May 28-29, 2022
+              </li>
+              <li>
+                Shadan Ali and Mohit Kumar, “Service Placement in Integrated
+                Edge environment using AI based techniques" in 7 th
+                International Conference on Computing in Engineering and
+                Technology (ICCET -2022), Maharashtra, pp. 684–693, vol. 303,
+                2022.
+              </li>
+              <li>
+                Samriya Jitendra Kumar, Mohit Kumar, Marcin Paprzycki, and Marek
+                Bolanowski “An Energy Aware Clustering Scheme for 5G-enabled
+                Edge Computing based IoMT Framework” in 22nd International
+                Conference on Computational Science (ICCS), 21-23 June, 2022 in
+                London, United Kingdom. Accepted (Rank A).
+              </li>
+              <li>
+                Mohit Kumar et al., “Evolution of Emerging Computing paradigm
+                Cloud to Fog: Applications, Limitations and Research Challenges”
+                in 11th IEEE international conference on Cloud Computing, Data
+                Science & Engineering (Confluence-2021), pp. 257-261. published
+                10.1109/Confluence51648.2021.9377050.
+              </li>
+              <li>
+                Mohit Kumar, Kalka Dubey and S.C. Sharma, “Elastic and flexible
+                deadline constraint load Balancing algorithm for Cloud
+                Computing” in Procedia Computer science, vol. 125, pp. 717-724,
+                2017 (Elsevier, Scopus).
+              </li>
+              <li>
+                Mohit Kumar and S.C. Sharma," Dynamic load balancing algorithm
+                for balancing the workload among virtual machine in cloud
+                computing," in Procedia Computer Science, organized by Rajagiri
+                School of Engineering & Technology ,vol.115, pp. 322–329, 2017
+                (Elsevier Scopus).
+              </li>
+              <li>
+                Kalka Dubey, Mohit Kumar and SC Sharma, “Modified HEFT Algorithm
+                for Task Scheduling in Cloud Environment,” in Procedia Computer
+                Science, vol. 125, pp. 725–732, 2018 (Elsevier, Scopus).
+              </li>
+              <li>
+                Mohit Kumar et al., “VM Selection using DVFS Technique to
+                Minimize Energy Consumption in Cloud System,” International
+                Conference on Information Technology (ICIT), India, 2018 (IEEE)
+              </li>
+              <li>
+                Mohit Kumar, Nirmal Roberts, "A Technique to reduce the Economic
+                Denial of Sustainability (EDoS) Attack in Cloud, Information
+                Telecommunication and Computing (ITC 2013)," ACEEE, 2013.
+                (Elsevier)
+              </li>
+              <li>
+                Mohit Kumar et al., “A Priority Based Job Scheduling Algorithm
+                Using IBA and EASY Algorithm for Cloud Metaschedular,”
+                International Conference on Advances in Computer Engineering and
+                Applications (ICACEA), Ghaziabad, India, 2015 pp. 66-70. (IEEE)
+              </li>
+              <li>
+                Mohit Kumar and S.C. Sharma," Priority Aware Longest Job First
+                (PA-LJF) Algorithm for Utilization of the Resource in Cloud
+                Environment," in 3 rd International Conference on Computing for
+                Sustainable Global Development, pp. 415-420, Delhi. 16-18 March
+                2016. (IEEE)
+              </li>
+              <li>
+                Mohit Kumar, K. Dubey and S.C. Sharma, “Job Scheduling algorithm
+                in cloud environment considering the priority and cost of job,”
+                6 th International Conference on soft computing for problem
+                solving (SocProS), Thapar, Patiyala, pp. 313-320, India 2016
+                (Springer Scopus).
+              </li>
+              <li>
+                T. Bhardwaj, Mohit Kumar and S.C. Sharma, “Megh: A Private Cloud
+                Provisioning Various IaaS and SaaS” in international Conference
+                on soft computing: Theories and applications (SoCTA),Jaipur,
+                India, pp. 485-494, 2016 (Springer, Scopus).
+              </li>
+            </ol>
+            <hr />
+            <h5>Books/Book-chapter</h5>
+            <ol>
+              <li>
+                Book of Computer architecture and hardware maintenance in jai
+                prakash nath publication, 2020.
+              </li>
+
+              <li>
+                Prof. Danda B. Rawat, Prof. Lalit K Awasthi, Prof. Valentina E.
+                Balas, Dr. Mohit Kumar, Dr. Jitendra Kumar Samriya edited Book
+                “Convergence of Cloud with AI for Big Data Analytics:
+                Foundations and Innovation” will be published under the
+                Wiley-Scrivener (Scopus indexed), 2022.
+              </li>
+              <li>
+                Mohit Kumar, Sukhpal Singh Gill, Jitendra Samriya and Steve
+                Uhlig, edited book “6G Enabled Fog Computingin IoT: Applications
+                and Opportunities” in Springer Book series, 2023.
+              </li>
+              <li>
+                Hritu Raj, Mohit Kumar, Prashant Kumar, Amritpal Singh, Om
+                Prakash Verma, “Issues and Challenges related to Privacy and
+                Security in Health-care using IoT, Fog and Cloud computing” in
+                the book “Intelligent IoT for Advanced Healthcare Systems”.
+              </li>
+              <li>
+                Shalini Sharma Goel, Anubhav Goel, Mohit Kumar, and Sachin
+                Sharma, “Internet of Things in the global impacts of COVID-19: A
+                Systematic study” in the book Convergence of Cloud with AI for
+                Big Data Analytics: Foundations and Innovation Wiley-Scrivener.
+                Status: Accepted
+              </li>
+              <li>
+                Jha, Mukesh Kumar, Mohit Kumar, and Jitendra Kumar Samriya.
+                "Smart and Reliable Agriculture Application Using IoT-Enabled
+                Fog-Cloud Platform." Industrial Reliability and Safety
+                Engineering. CRC Press, 2023. 47-65.
+              </li>
+              <li>
+                Mohit Kumar et al., “GPU based AI for Modern E-Commerce
+                Applications: Performance Evaluation, Analysis and Future
+                Directions” in the book 6G Enabled Fog Computing in IoT:
+                Applications and Opportunities, Springer 2023.
+              </li>
+              <li>
+                Mohit Kumar et al., “Intelligent Fog-IoT Networks with 6G
+                Endorsement: Foundations, Applications, Trends and Challenges”
+                in the book 6G Enabled Fog Computing in IoT: Applications and
+                Opportunities, Springer 2023.
+              </li>
+            </ol>
+          </div></div>
+
+          <!-- PROFESSIONAL ACTIVITIES TAB -->
+          <div id="professional-activities" class="page" data-tab-content>
+            <h3 class="pagetitle">Professional Activities</h3>
+            <div class="container">
+            <!-- ADD PROFESSIONAL LIFE CONTENT HERE -->
+            <h5>Conference/STC/FDP/Webinar organized</h5>
+            <ul>
+              <li>
+                Organized the 5 days FDP on “Big Data and Analytics” in the
+                Department of Information Technology, as a Convener at NIT
+                Jalandhar on dated 3rd-7th April 2023.
+              </li>
+              <li>
+                Organized the 5 days FDP on “ML/DL for Data Science and
+                Analytics using Python” in the Department of Information
+                Technology, NIT Jalandhar on dated 15th -19th Feb 2023.
+              </li>
+              <li>
+                Organized the 5 days FDP on “Cloud Computing and Its
+                Applications: Opportunities and Challenges” in the Department of
+                Computer Science and Engineering on dated 17-21 December 2022.
+              </li>
+              <li>
+                Organized the 5 days FDP on “IoT Induced Artificial Intelligence
+                for Emerging Computing Paradigms” in the Department of
+                Information Technology, NIT Jalandhar on dated 4th Oct- 08th Oct
+                2022.
+              </li>
+              <li>
+                Organized the 5 days FDP on “Artificial Intelligence for IoT
+                services in Cloud: Techniques & Applications” in the Department
+                of Information Technology, NIT Jalandhar on dated 28th Feb- 04th
+                March 2022.
+              </li>
+              <li>
+                Organized one Week Online FDP on "Blockchain assisted Federated
+                Machine Learning for Securing Big Data Analytics and IoT" in the
+                Department of Information Technology, NIT Jalandhar on dated
+                from 8th – 12th April 2022.
+              </li>
+              <li>
+                Organized the 5 days short term course on “Cloud of Things
+                (CoT): Theoretical and Practical Implications” in the department
+                of information technology, NIT Jalandhar on dated 10th to 14 th
+                August2020.
+              </li>
+              <li>
+                Organized the 5 days short term course on “Soft Computing:
+                Theories and Applications” in the department of information
+                technology, NIT Jalandhar on dated 14 th to 18th September-2020.
+              </li>
+              <li>
+                Worked as an Organizing Secretary in E-International Conference
+                on “Socio-Economic and Health Challenges due to COVID-19 and
+                Mitigation Strategies (SECHM-2020)” organized by CCE, NIT
+                Jalandhar held during October 22-23, 2020.
+              </li>
+            </ul>
+            <hr />
+            <h5>Technical Training/Workshop attended</h5>
+            <ul>
+              <li>
+                One-week FDP on “Artificial Intelligence and Machine Learning
+                with Data Science” AICTE Training and Learning (ATAL) in
+                Babasaheb Naik College of Engineering, 14 July 2021 to 18 July
+                2021.
+              </li>
+              <li>
+                One week FDP on “Fog and Edge Computing Challenges and Research
+                Directions” AICTE Training and Learning (ATAL) at National
+                Institute of Technology Sikkim. 26 to 30 Oct 2021.
+              </li>
+              <li>
+                One week FDP on “Cloud Forensics: Techniques, Challenges and
+                Research Directions” AICTE Training and Learning (ATAL) at
+                National Institute of Technology Sikkim. 18-22 Oct 2021.
+              </li>
+              <li>
+                One week FDP on “Interdisciplinary Smart Application of Internet
+                of Things, Cloud Computing and Data Analytics Technologies”
+                AICTE Training and Learning (ATAL) at School of Studies in
+                Engineering and Technology, 04-08 Oct 2021.
+              </li>
+              <li>
+                One-Week Short Term Course on “Cyber Forensic and Information
+                Security” Dr B R Ambedkar National Institute of Technology
+                Jalandhar, December 16 – 20, 2021.
+              </li>
+              <li>
+                One week FDP on “Artificial Intelligence for IoT services in
+                Cloud: Techniques & Applications” Dr B R Ambedkar National
+                Institute of Technology Jalandhar, 28 Feb- 4 March 2022
+              </li>
+              <li>
+                Two weeks GIAN course (workshop) at Cloud Data Center Service
+                Provisioning: Theoretical and Practical Approaches held in
+                school of computer and systems sciences. JNU, New Delhi from Jan
+                29 to Feb 9-2018.
+              </li>
+              <li>
+                Attended one-week TEQIP-III sponsored e-STC on Identify the
+                Weakest Link: An International e-STC on recent attacking and
+                defensive strategies held at NIT Jalandhar from 10th-14th
+                August, 2020.
+              </li>
+              <li>
+                Attended one-week TEQIP-III sponsored e-STC on “Applications of
+                Machine Learning in the Advancements of Computer Science" to be
+                organized from 17th -21st August 2020.
+              </li>
+              <li>
+                Attended one-week Virtual Faculty Development Program (FDP) On
+                Communication Networks and Machine Learning From 18th – 22nd
+                January, 2021 Organized by Department of Computer Science &
+                Engineering IIIT Bhagalpur, Bihar.
+              </li>
+              <li>
+                10 Days Training Program on Big Data Analytics in IIT Roorkee
+                from 1 April to 10 April 2016.
+              </li>
+              <li>
+                2 Days Workshop on New Developments in Exact Algorithms and
+                Lower Bounds in IIT Delhi From13- 14 Dec 2014.
+              </li>
+              <li>
+                2 Days Workshop on Recent Developments in Cryptography in IIT
+                Delhi from18-19 December 2014.
+              </li>
+            </ul>
+
+            <hr />
+            <h5>Session chair</h5>
+            <ul>
+              <li>
+                Session chaired in 5 th International conference on Soft
+                Computing: Theories and Applications (SoCTA-2020) 25-27 December
+                2020.
+              </li>
+              <li>
+                Session chaired in International Congress on Advances in
+                Materials Science and Engineering (CAMSE), Dec 28-30, 2020.
+              </li>
+              <li>
+                Program committee member in international conference on Cyber
+                Security in Emerging Digital Era (ICCEDE2020) at G. L Bajaj
+                Institute of Technology and Management, Gr. Noida, GautamBudh
+                Nagar, Delhi NCR, India, on 9 and 10 Oct 2020.
+              </li>
+              <li>
+                Mohit Kumar worked as Session chair in 7th International
+                Conference on Computing in Engineering and Technology (ICCET
+                -2022), 12 Feb 2022.
+              </li>
+              <li>
+                Mohit Kumar worked as session chair in international conferences
+                on Soft Computing Theories and Applications, 17-19 Dec 2021 in
+                IIIT Kota.
+              </li>
+            </ul>
+            <hr />
+            <h5>Course Certification/Achievement</h5>
+            <ul>
+              <li>
+                Successfully Completed “AWS Fundamentals: Going Cloud-Native” an
+                online non-credit course authorized by Amazon Web Services and
+                offered through Coursera on dated 30th may 2020.
+              </li>
+              <li>
+                Successfully completed “Google Cloud Platform Fundamentals: Core
+                Infrastructure” an online noncredit course authorized by Google
+                Cloud and offered through Coursera on dated 15th may-2020.
+              </li>
+            </ul>
+            <hr />
+            <h5>Delivered Talks/Lectures</h5>
+            <ul>
+              <li>
+                Delivered a lecture in St. Martin’s Engineering College at Cloud
+                Computing on dated 22nd May 2020.
+              </li>
+              <li>
+                Delivered a lecture in INVERTIS University, Bareilly at
+                “Integration of Cloud with Internet of Things” on dated 30th
+                June 2020.
+              </li>
+              <li>
+                Delivered a lecture in Government Polytechnic, Banka at “Basic
+                of Cloud Computing” on dated 11th July 2020.
+              </li>
+              <li>
+                Delivered a lecture in NIT Jalandhar, Bareilly at “Cloud
+                Computing” on dated 24th July 2020.
+              </li>
+              <li>
+                Delivered a lecture at cloud computing and its applications in
+                JP University Solan on dated 30 july 2020.
+              </li>
+              <li>
+                Delivered a lecture at cloud computing and its applications in
+                Bikaner Technical University, Bikaner on dated 04-August-2020.
+              </li>
+              <li>
+                Delivered a lecture at integration of cloud with IoT in Bikaner
+                Technical University, Bikaner on dated 06-August-2020.
+              </li>
+              <li>
+                Delivered a lecture at Cloud of Things (AWS) in International
+                Workshop on Next Generation Data Science Tools & Technologies at
+                Graphic Era, Dehradun on Tuesday November 3, 2020.
+              </li>
+              <li>
+                Delivered a talk at IoT Integration with Cloud in Computer
+                Science as an Integral Part of Modern Integration of cloud with
+                big data for IoT services 13 April 2022
+              </li>
+              <li>
+                Delivered a lecture on “Integration of cloud with big data for
+                IoT services” in one Week Online FDP on "Blockchain assisted
+                Federated Machine Learning for Securing Big Data Analytics and
+                IoT at NIT Jalandhar on 13 April 2022.
+              </li>
+              <li>
+                Delivered an Expert talk on “Resource allocation in cloud
+                computing” in Ambalika institute of Management & technology,
+                Lucknow, 24 Feb 2022.
+              </li>
+              <li>
+                Delivered a lecture on “PSO based Optimization Technique” in
+                national High-End Workshop on Statistical Tools: Modelling and
+                Optimization at NIT Jalandhar, 19 July 2022.
+              </li>
+              <li>
+                Delivered a lecture on “AI based Task Offloading and Resource
+                Allocation in Integrated Cloud Fog environment” on FDP conducted
+                by Department of CSE, ASET, AMITY University Uttar Pradesh,
+                NOIDA on Recent Trends and Advances in Machine Learning from
+                12-16 Sept 2022.
+              </li>
+              <li>
+                Delivered a lecture on “AI based resource allocation in fog
+                computing” in 5 days FDP on “IoT Induced Artificial Intelligence
+                for Emerging Computing Paradigms” in the Department of
+                Information Technology, NIT Jalandhar on dated 4th Oct- 08th Oct
+                2022.
+              </li>
+              <li>
+                Delivered a lecture on “Security Issues in Fog Computing” in 5
+                days FDP on “Security Aspects in Computer Science and its
+                Applications (SACSA-2022)” scheduled during October 17 – 21,
+                2022 organized by Dept. of Computer Science & Engineering, MNNIT
+                Allahabad, Prayagraj.
+              </li>
+              <li>
+                Delivered a lecture on “Security Issues in Cloud Computing” in 5
+                days FDP on “AI in Multimedia Processing and Security” from 18th
+                to 22th Feb 2023 organized by Dept. of Computer Science &
+                Engineering, NIT Patna, Bihar.
+              </li>
+              <li>
+                Delivered a lecture on “Case study in IoT” in 5 days FDP on “IoT
+                and Its Applications” from 26th to 30th March 2023 organized by
+                Bajaj Institute of Technology, Wardha.
+              </li>
+              <li>
+                Delivered a lecture on “Resource Scheduling in Cloud Computing”
+                in 5 days FDP on “Cloud Computing and Big Data” from 10 th to
+                14th April 2023 organized by School of Computer Science &
+                Engineering, VIT, Tamil Nadu.
+              </li>
+              <li>
+                Delivered a lecture on “Internet of things (IOT) and its case
+                studies” in 5 days FDP on “AI & IoT in Biomedical Engineering”
+                in IIIT Bhagalpur from 2 nd May to 6 th May 2023.
+              </li>
+              <li>
+                Delivered a lecture on “AI based offloading and resource
+                scheduling” in 5 days FDP on “AI Empowered Futuristic Computing
+                Paradigm” from 08th May to 12th May 2023 organized by Department
+                of Computer Science, Graphic Era (Deemed to be) University,
+                Dehradun.
+              </li>
+              <li>
+                Delivered a lecture on “Blockchain based solution for Cloud
+                computing” in 5 days FDP on “Blockchain and Cryptocurrency” from
+                22th to 26th May 2023 organized by school of Electronics and
+                Communication Engineering, Shri Mata Vaishno Devi University,
+                Katra, Jammu.
+              </li>
+              <li>
+                Delivered a lecture on “Security and Privacy issues in
+                Multimedia Content over Cloud Computing” from 3 rd to 7 th July
+                2023 organized by Dept. of Computer Science & Engineering, NIT
+                Patna, Bihar.
+              </li>
+            </ul>
+          </div></div>
+
+          <!-- STUDENTS GUIDED TAB -->
+          <div id="students-guided" class="page" data-tab-content>
+            <h3 class="pagetitle">Students Guided</h3>
+            <div class="container">
+            <!-- ADD STUDENTS GUIDED DETAILS HERE -->
+
+            <table>
+              <tr>
+                <th colspan="5">PhD Students</th>
+              </tr>
+              <tr>
+                <th>S. No.</th>
+                <th>Name of Students</th>
+                <th>Title of Thesis</th>
+                <th>Year</th>
+                <th>Status</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Ananya</td>
+                <td>
+                  Trust based Framework for Task offloading in Fog-enabled IoT
+                  Networks
+                </td>
+                <td>2020</td>
+                <td>Ongoing</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Mansi Gupta</td>
+                <td>
+                  Blockchain Empowered Federated Machine Learning for IoT
+                  Applications
+                </td>
+                <td>2021</td>
+                <td>Ongoing</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Mukesh Kumar</td>
+                <td>
+                  AI enabled Resource Allocation Framework to Enhance the
+                  Performance in Edge Computing
+                </td>
+                <td>2021</td>
+                <td>Ongoing</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Guneet kaur</td>
+                <td>
+                  Intelligent Computing paradigm for next generation IoT network
+                </td>
+                <td>2022</td>
+                <td>Ongoing</td>
+              </tr>
+            </table>
+
+            <br />
+
+            <table>
+              <tr>
+                <th colspan="5">M.Tech Students</th>
+              </tr>
+              <tr>
+                <th>S. No.</th>
+                <th>Name of Students</th>
+                <th>Title of Thesis</th>
+                <th>Year</th>
+                <th>Status</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Hritu Raj</td>
+                <td>
+                  Blockchain Assisted Secure and Reliable Data Exchange for
+                  Healthcare 4.0
+                </td>
+                <td>2020-21</td>
+                <td>Completed</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Haresh Shingare</td>
+                <td>
+                  An Optimized framework for Task Offloading in an integrated
+                  Cloud Fog environment
+                </td>
+                <td>2021-22</td>
+                <td>Completed</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Shadan Ali</td>
+                <td>
+                  An Efficient Service Placement Technique in Edge Computing
+                </td>
+                <td>2021-22</td>
+                <td>Completed</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Sujay Bansal</td>
+                <td>ML based workload prediction in Cloud computing</td>
+                <td>2022-23</td>
+                <td>Completed</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Neha</td>
+                <td>
+                  DL based workload prediction and an efficient resource
+                  allocation in fog/edge computing
+                </td>
+                <td>2022-23</td>
+                <td>Completed</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Om Prakash</td>
+                <td>
+                  ML based attack detection and prevention in cloud computing
+                </td>
+                <td>2022-23</td>
+                <td>Completed</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+          <!-- CONTACT TAB -->
+          <div id="Contact"  class="page" data-tab-content>
+            <h3 class="pagetitle">Contact</h3>
+            <div class="container">
+            <div class="contact-container">
+              <h5 >Love to hear from you, Get in touch.</h5>
+
+              <div class="contact-info">
+                <span class="contact-label">Email:</span>
+                <br />
+                mohit05cs33@gmail.com, kumarmohit@nitj.ac.in
+              </div>
+
+              <div class="contact-info">
+                <span class="contact-label">Mobile:</span>
+                <br />
+                +91-9759950380, +91-8630990560
+              </div>
+
+              <div class="contact-info">
+                <span class="contact-label">ResearchGate:</span>
+                <br />
+                <a
+                  href="https://www.researchgate.net/profile/Mohit_Kumar98"
+                  class="contact-link"
+                  >https://www.researchgate.net/profile/Mohit_Kumar98</a
+                >
+              </div>
+
+              <div class="contact-info">
+                <span class="contact-label">GoogleScholar:</span>
+                <br />
+                <a
+                  href="https://scholar.google.co.in/citations?user=5zbn8FcAAAAJ&hl=en"
+                  class="contact-link"
+                  >https://scholar.google.co.in/citations?user=5zbn8FcAAAAJ&hl=en</a
+                >
+              </div>
+
+              <div class="contact-info">
+                <span class="contact-label">ORCID ID:</span>
+                0000-0003-1600-6872, Scopus ID: 56243664000
+              </div>
+
+              <div class="contact-info">
+                <span class="contact-label">Vidwan ID:</span> 114068, Researcher
+                ID: T-8073-2018
+              </div>
+
+              <div class="contact-info">
+                <span class="contact-label">Skype ID:</span> +91-9759950380
+              </div>
+            </div>
+          </div>
+        </div>
         </div>
 
-        <!-- CONTENT -->
-        <div class="content">
+        <div class="vl"></div>
 
-            <div class="content-tabs">
-
-                <!-- HOME TAB -->
-                <div id="home" data-tab-content class="actives">
-                    <h3 class="pagetitle">Home</h3>
-
-                    <!-- ADD HOME TAB CONTENT HERE -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Nunc aliquet bibendum enim facilisis gravida neque. Feugiat nibh sed
-                        pulvinar proin. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Velit
-                        scelerisque
-                        in dictum non consectetur a erat nam. Luctus accumsan tortor posuere ac ut consequat semper
-                        viverra.
-                        Nulla porttitor massa id neque aliquam. Ut sem viverra aliquet eget. Commodo sed egestas egestas
-                        fringilla phasellus. Cursus mattis molestie a iaculis at. Eget sit amet tellus cras adipiscing.
-                        Vestibulum sed arcu non odio euismod lacinia at quis risus. Aliquam ultrices sagittis orci a
-                        scelerisque.</p>
-                    <p>Placerat orci nulla pellentesque dignissim enim. Et netus et malesuada fames ac. Metus vulputate
-                        eu
-                        scelerisque felis imperdiet proin. Amet consectetur adipiscing elit duis. Viverra tellus in hac
-                        habitasse. Libero justo laoreet sit amet. Sed risus pretium quam vulputate dignissim suspendisse
-                        in.
-                        Massa massa ultricies mi quis hendrerit dolor magna eget. Blandit massa enim nec dui nunc
-                        mattis.
-                        Sem fringilla ut morbi tincidunt augue interdum velit euismod. Enim ut sem viverra aliquet.
-                        Nulla
-                        facilisi cras fermentum odio eu feugiat pretium nibh. Tristique et egestas quis ipsum
-                        suspendisse
-                        ultrices gravida dictum fusce. Morbi blandit cursus risus at ultrices mi tempus. Nunc
-                        scelerisque
-                        viverra mauris in aliquam sem fringilla.</p>
-
-                </div>
-
-                <!-- RESEARCH TAB -->
-                <div id="research" data-tab-content>
-                    <h3 class="pagetitle">Research</h3>
-
-                    <!-- ADD RESEARCH CONTENT HERE  -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Nunc aliquet bibendum enim facilisis gravida neque. Feugiat nibh sed
-                        pulvinar proin. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Velit
-                        scelerisque
-                        in dictum non consectetur a erat nam. Luctus accumsan tortor posuere ac ut consequat semper
-                        viverra.
-                        Nulla porttitor massa id neque aliquam. Ut sem viverra aliquet eget. Commodo sed egestas egestas
-                        fringilla phasellus. Cursus mattis molestie a iaculis at. Eget sit amet tellus cras adipiscing.
-                        Vestibulum sed arcu non odio euismod lacinia at quis risus. Aliquam ultrices sagittis orci a
-                        scelerisque.</p>
-                    <p>Placerat orci nulla pellentesque dignissim enim. Et netus et malesuada fames ac. Metus vulputate
-                        eu
-                        scelerisque felis imperdiet proin. Amet consectetur adipiscing elit duis. Viverra tellus in hac
-                        habitasse. Libero justo laoreet sit amet. Sed risus pretium quam vulputate dignissim suspendisse
-                        in.
-                        Massa massa ultricies mi quis hendrerit dolor magna eget. Blandit massa enim nec dui nunc
-                        mattis.
-                        Sem fringilla ut morbi tincidunt augue interdum velit euismod. Enim ut sem viverra aliquet.
-                        Nulla
-                        facilisi cras fermentum odio eu feugiat pretium nibh. Tristique et egestas quis ipsum
-                        suspendisse
-                        ultrices gravida dictum fusce. Morbi blandit cursus risus at ultrices mi tempus. Nunc
-                        scelerisque
-                        viverra mauris in aliquam sem fringilla.</p>
-
-                </div>
-
-                <!-- TEACHING TAB -->
-                <div id="teaching" data-tab-content>
-                    <h3 class="pagetitle">Teaching</h3>
-
-                    <!-- ADD TEACHING CONTENT HERE -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Nunc aliquet bibendum enim facilisis gravida neque. Feugiat nibh sed
-                        pulvinar proin. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Velit
-                        scelerisque
-                        in dictum non consectetur a erat nam. Luctus accumsan tortor posuere ac ut consequat semper
-                        viverra.
-                        Nulla porttitor massa id neque aliquam. Ut sem viverra aliquet eget. Commodo sed egestas egestas
-                        fringilla phasellus. Cursus mattis molestie a iaculis at. Eget sit amet tellus cras adipiscing.
-                        Vestibulum sed arcu non odio euismod lacinia at quis risus. Aliquam ultrices sagittis orci a
-                        scelerisque.</p>
-                    <p>Placerat orci nulla pellentesque dignissim enim. Et netus et malesuada fames ac. Metus vulputate
-                        eu
-                        scelerisque felis imperdiet proin. Amet consectetur adipiscing elit duis. Viverra tellus in hac
-                        habitasse. Libero justo laoreet sit amet. Sed risus pretium quam vulputate dignissim suspendisse
-                        in.
-                        Massa massa ultricies mi quis hendrerit dolor magna eget. Blandit massa enim nec dui nunc
-                        mattis.
-                        Sem fringilla ut morbi tincidunt augue interdum velit euismod. Enim ut sem viverra aliquet.
-                        Nulla
-                        facilisi cras fermentum odio eu feugiat pretium nibh. Tristique et egestas quis ipsum
-                        suspendisse
-                        ultrices gravida dictum fusce. Morbi blandit cursus risus at ultrices mi tempus. Nunc
-                        scelerisque
-                        viverra mauris in aliquam sem fringilla.</p>
-
-                </div>
-
-                <!-- PUBLICATIONS TAB -->
-                <div id="publications" data-tab-content>
-                    <h3 class="pagetitle">Publications</h3>
-
-                    <!-- ADD PUBLICATIONS CONTENT HERE -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Nunc aliquet bibendum enim facilisis gravida neque. Feugiat nibh sed
-                        pulvinar proin. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Velit
-                        scelerisque
-                        in dictum non consectetur a erat nam. Luctus accumsan tortor posuere ac ut consequat semper
-                        viverra.
-                        Nulla porttitor massa id neque aliquam. Ut sem viverra aliquet eget. Commodo sed egestas egestas
-                        fringilla phasellus. Cursus mattis molestie a iaculis at. Eget sit amet tellus cras adipiscing.
-                        Vestibulum sed arcu non odio euismod lacinia at quis risus. Aliquam ultrices sagittis orci a
-                        scelerisque.</p>
-                    <p>Placerat orci nulla pellentesque dignissim enim. Et netus et malesuada fames ac. Metus vulputate
-                        eu
-                        scelerisque felis imperdiet proin. Amet consectetur adipiscing elit duis. Viverra tellus in hac
-                        habitasse. Libero justo laoreet sit amet. Sed risus pretium quam vulputate dignissim suspendisse
-                        in.
-                        Massa massa ultricies mi quis hendrerit dolor magna eget. Blandit massa enim nec dui nunc
-                        mattis.
-                        Sem fringilla ut morbi tincidunt augue interdum velit euismod. Enim ut sem viverra aliquet.
-                        Nulla
-                        facilisi cras fermentum odio eu feugiat pretium nibh. Tristique et egestas quis ipsum
-                        suspendisse
-                        ultrices gravida dictum fusce. Morbi blandit cursus risus at ultrices mi tempus. Nunc
-                        scelerisque
-                        viverra mauris in aliquam sem fringilla.</p>
-
-                </div>
-
-                <!-- PROFESSIONAL ACTIVITIES TAB -->
-                <div id="professional-activities" data-tab-content>
-                    <h3 class="pagetitle">Professional Activities</h3>
-
-                    <!-- ADD PROFESSIONAL LIFE CONTENT HERE -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Nunc aliquet bibendum enim facilisis gravida neque. Feugiat nibh sed
-                        pulvinar proin. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Velit
-                        scelerisque
-                        in dictum non consectetur a erat nam. Luctus accumsan tortor posuere ac ut consequat semper
-                        viverra.
-                        Nulla porttitor massa id neque aliquam. Ut sem viverra aliquet eget. Commodo sed egestas egestas
-                        fringilla phasellus. Cursus mattis molestie a iaculis at. Eget sit amet tellus cras adipiscing.
-                        Vestibulum sed arcu non odio euismod lacinia at quis risus. Aliquam ultrices sagittis orci a
-                        scelerisque.</p>
-                    <p>Placerat orci nulla pellentesque dignissim enim. Et netus et malesuada fames ac. Metus vulputate
-                        eu
-                        scelerisque felis imperdiet proin. Amet consectetur adipiscing elit duis. Viverra tellus in hac
-                        habitasse. Libero justo laoreet sit amet. Sed risus pretium quam vulputate dignissim suspendisse
-                        in.
-                        Massa massa ultricies mi quis hendrerit dolor magna eget. Blandit massa enim nec dui nunc
-                        mattis.
-                        Sem fringilla ut morbi tincidunt augue interdum velit euismod. Enim ut sem viverra aliquet.
-                        Nulla
-                        facilisi cras fermentum odio eu feugiat pretium nibh. Tristique et egestas quis ipsum
-                        suspendisse
-                        ultrices gravida dictum fusce. Morbi blandit cursus risus at ultrices mi tempus. Nunc
-                        scelerisque
-                        viverra mauris in aliquam sem fringilla.</p>
-
-                </div>
-
-                <!-- STUDENTS GUIDED TAB -->
-                <div id="students-guided" data-tab-content>
-                    <h3 class="pagetitle">Students Guided</h3>
-
-                    <!-- ADD STUDENTS GUIDED DETAILS HERE -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Nunc aliquet bibendum enim facilisis gravida neque. Feugiat nibh sed
-                        pulvinar proin. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Velit
-                        scelerisque
-                        in dictum non consectetur a erat nam. Luctus accumsan tortor posuere ac ut consequat semper
-                        viverra.
-                        Nulla porttitor massa id neque aliquam. Ut sem viverra aliquet eget. Commodo sed egestas egestas
-                        fringilla phasellus. Cursus mattis molestie a iaculis at. Eget sit amet tellus cras adipiscing.
-                        Vestibulum sed arcu non odio euismod lacinia at quis risus. Aliquam ultrices sagittis orci a
-                        scelerisque.</p>
-                    <p>Placerat orci nulla pellentesque dignissim enim. Et netus et malesuada fames ac. Metus vulputate
-                        eu
-                        scelerisque felis imperdiet proin. Amet consectetur adipiscing elit duis. Viverra tellus in hac
-                        habitasse. Libero justo laoreet sit amet. Sed risus pretium quam vulputate dignissim suspendisse
-                        in.
-                        Massa massa ultricies mi quis hendrerit dolor magna eget. Blandit massa enim nec dui nunc
-                        mattis.
-                        Sem fringilla ut morbi tincidunt augue interdum velit euismod. Enim ut sem viverra aliquet.
-                        Nulla
-                        facilisi cras fermentum odio eu feugiat pretium nibh. Tristique et egestas quis ipsum
-                        suspendisse
-                        ultrices gravida dictum fusce. Morbi blandit cursus risus at ultrices mi tempus. Nunc
-                        scelerisque
-                        viverra mauris in aliquam sem fringilla.</p>
-
-                </div>
-
-                <!-- CONTACT TAB -->
-                <div id="Contact" data-tab-content>
-                    <h3 class="pagetitle">Contact</h3>
-
-                    <!-- ADD CONTACT DETAILS HERE -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Nunc aliquet bibendum enim facilisis gravida neque. Feugiat nibh sed
-                        pulvinar proin. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Velit
-                        scelerisque
-                        in dictum non consectetur a erat nam. Luctus accumsan tortor posuere ac ut consequat semper
-                        viverra.
-                        Nulla porttitor massa id neque aliquam. Ut sem viverra aliquet eget. Commodo sed egestas egestas
-                        fringilla phasellus. Cursus mattis molestie a iaculis at. Eget sit amet tellus cras adipiscing.
-                        Vestibulum sed arcu non odio euismod lacinia at quis risus. Aliquam ultrices sagittis orci a
-                        scelerisque.</p>
-                    <p>Placerat orci nulla pellentesque dignissim enim. Et netus et malesuada fames ac. Metus vulputate
-                        eu
-                        scelerisque felis imperdiet proin. Amet consectetur adipiscing elit duis. Viverra tellus in hac
-                        habitasse. Libero justo laoreet sit amet. Sed risus pretium quam vulputate dignissim suspendisse
-                        in.
-                        Massa massa ultricies mi quis hendrerit dolor magna eget. Blandit massa enim nec dui nunc
-                        mattis.
-                        Sem fringilla ut morbi tincidunt augue interdum velit euismod. Enim ut sem viverra aliquet.
-                        Nulla
-                        facilisi cras fermentum odio eu feugiat pretium nibh. Tristique et egestas quis ipsum
-                        suspendisse
-                        ultrices gravida dictum fusce. Morbi blandit cursus risus at ultrices mi tempus. Nunc
-                        scelerisque
-                        viverra mauris in aliquam sem fringilla.</p>
-
-                </div>
-
-
+        <div class="sidebar">
+          <!-- ADD PHOTOS LINK FOR THE SLIDESHOW PHOTOS -->
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="assets/photos/8601.jpg"
+                  alt="First slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="assets/photos/cup-man-achievement-success-honor.jpg"
+                  alt="Second slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="assets/photos/Jan-Success_1.jpg"
+                  alt="Third slide"
+                />
+              </div>
             </div>
+          </div>
 
+          <div class="latest-news widgets">
+            <h2>Latest News</h2>
+            <!-- ADD LATEST NEWS IN FORM OF LIST ELEMENTS HERE -->
+            <ul>
+              <li>
+                Placerat orci nulla pellentesque dignissim enim. Et netus et
+                malesuada fames ac. Metus vulputate eu scelerisque felis
+                imperdiet proin. Amet consectetur adipiscing elit duis. Viverra
+                tellus in hac habitasse. Libero justo laoreet sit amet. Sed
+                risus pretium quam vulputate dignissim suspendisse in. Massa
+                massa ultricies mi quis hendrerit dolor magna eget. Blandit
+                massa enim nec dui nunc mattis. Sem fringilla ut morbi tincidunt
+                augue interdum velit euismod. Enim ut sem viverra aliquet. Nulla
+                facilisi cras fermentum odio eu feugiat pretium nibh. Tristique
+                et egestas quis ipsum suspendisse ultrices gravida dictum fusce.
+                Morbi blandit cursus risus at ultrices mi tempus. Nunc
+                scelerisque viverra mauris in aliquam sem fringilla.
+              </li>
+            </ul>
+          </div>
 
-            <div class="vl"></div>
-
-
-            <div class="sidebar">
-
-                <!-- ADD PHOTOS LINK FOR THE SLIDESHOW PHOTOS -->
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="assets/photos/8601.jpg" alt="First slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="assets/photos/cup-man-achievement-success-honor.jpg"
-                                alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="assets/photos/Jan-Success_1.jpg" alt="Third slide">
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="latest-news widgets">
-                    <h2>Latest News</h4>
-                        <!-- ADD LATEST NEWS IN FORM OF LIST ELEMENTS HERE -->
-                        <ul>
-                            <li>Placerat orci nulla pellentesque dignissim enim. Et netus et malesuada fames ac. Metus
-                                vulputate
-                                eu scelerisque felis imperdiet proin. Amet consectetur adipiscing elit duis. Viverra
-                                tellus in
-                                hac habitasse. Libero justo laoreet sit amet. Sed risus pretium quam vulputate dignissim
-                                suspendisse in. Massa massa ultricies mi quis hendrerit dolor magna eget. Blandit massa
-                                enim nec
-                                dui nunc mattis. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Enim ut
-                                sem
-                                viverra aliquet. Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Tristique
-                                et
-                                egestas quis ipsum suspendisse ultrices gravida dictum fusce. Morbi blandit cursus risus
-                                at
-                                ultrices mi tempus. Nunc scelerisque viverra mauris in aliquam sem fringilla.</li>
-                        </ul>
-                </div>
-
-                <!-- UPDATE MEETING ADDRESS AND HOURS IN THIS SECTION -->
-                <div class="hours-info widgets">
-                    <h2>Hours & Info</h4>
-                       <a href="https://www.google.com/maps/place/Dr+B+R+Ambedkar+National+Institute+of+Technology+Jalandhar/@31.3934294,75.5397707,17z/data=!4m6!3m5!1s0x391a51d30c180edf:0x5b7633718d17ef33!8m2!3d31.3958746!4d75.5358439!16zL20vMDRsZDVq?entry=ttu">
-
-                      <img src="assets/photos/NITJ_map.png" class="map"> </a> 
-                        <br><br>
-                        <a class="address"
-                            href="https://www.google.com/maps/place/Dr+B+R+Ambedkar+National+Institute+of+Technology+Jalandhar/@31.3934294,75.5397707,17z/data=!4m6!3m5!1s0x391a51d30c180edf:0x5b7633718d17ef33!8m2!3d31.3958746!4d75.5358439!16zL20vMDRsZDVq?entry=ttu">
-                            <span>Dr. B.R. AMBEDKAR NATIONAL INSTITUTE OF TECHNOLOGY, </span>
-                            <span>GT Road, Barnala - Amritsar Bypass Rd, Jalandhar, Punjab 144011</span><br></a>
-                        <span>Tele: +011-XXXXXXXXX (O)<br>Mobile: +91-XXXXXXXXXX<br>
-                            Visiting Hours: 3.00-4.00 P.M</span>
-                </div>
-            </div>
+          <!-- UPDATE MEETING ADDRESS AND HOURS IN THIS SECTION -->
+          <div class="hours-info widgets">
+            <h2>Hours & Info</h2>
+            <a
+              href="https://www.google.com/maps/place/Dr+B+R+Ambedkar+National+Institute+of+Technology+Jalandhar/@31.3934294,75.5397707,17z/data=!4m6!3m5!1s0x391a51d30c180edf:0x5b7633718d17ef33!8m2!3d31.3958746!4d75.5358439!16zL20vMDRsZDVq?entry=ttu"
+            >
+              <img src="assets/photos/NITJ_map.png" class="map" />
+            </a>
+            <br /><br />
+            <a
+              class="address"
+              href="https://www.google.com/maps/place/Dr+B+R+Ambedkar+National+Institute+of+Technology+Jalandhar/@31.3934294,75.5397707,17z/data=!4m6!3m5!1s0x391a51d30c180edf:0x5b7633718d17ef33!8m2!3d31.3958746!4d75.5358439!16zL20vMDRsZDVq?entry=ttu"
+            >
+              <span>Dr. B.R. AMBEDKAR NATIONAL INSTITUTE OF TECHNOLOGY, </span>
+              <span
+                >GT Road, Barnala - Amritsar Bypass Rd, Jalandhar, Punjab
+                144011</span
+              ><br
+            /></a>
+            <span
+              >Tele: +011-XXXXXXXXX (O)<br />Mobile: +91-XXXXXXXXXX<br />
+              Visiting Hours: 3.00-4.00 P.M</span
+            >
+          </div>
         </div>
+      </div>
 
-        <!-- END OF MAIN CONTENT -->
+      <!-- END OF MAIN CONTENT -->
     </div>
     <div class="footer">
-        <h4 class="developer">DEVELOPED BY-<br> Shivramkrishna Tiwari<br><br></h4>
+      <h4 class="developer">
+        WEBSITE DEVELOPED BY-<br />
+        Shivramkrishna Tiwari<br /><br />
+      </h4>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
